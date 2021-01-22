@@ -1,0 +1,33 @@
+@media (max-width: 576px) {
+ .hero {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+ 
+ 
+ 
+}
+
+
+
+@media (min-width: 767px) and (max-width: 1000px) {
+  
+
+
+  .hero {
+    flex-direction: column;
+  }
+  
+   .hero__image {
+    width:100%;
+    
+  }
+
+
+  .portfolio {
+    flex-direction: column;
+  }
+
+
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam 3</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Lucas Montana</h1>
+    </header>
+
+    <div class="main-container">
+      <section class="hero">
+        <img class="hero__image" src="./images/avatar.png" alt="lucas avatar" />
+        <div class="hero__right-section">
+          <h3 class="hero__title">
+            Hey. I'm Lucas
+            <br />
+            And I'm a professional photographer
+          </h3>
+          
+          <h3 class="hero__subtitle">
+            Curabitur blanit tempus porttitor. Vollis ac
+            inceptos mollisestor commodo luctus.
+          </h3>
+          <p class="hero__description">
+            Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor
+            commodo luctus. Curabitur blandit tempus porttitor. Morbi leo risus,
+            porta ac consectetur ac, vestibulum at eros. Vestibulum id ligulas
+            semper. Cum sociis natoque penatibus et magnis maecenas. Donec
+            ullamcorper nulla non metus auctor fringilla.
+          </p>
+          <button class="hero__btn">contact me</button>
+        </div>
+      </section>
+
+      <section class="portfolio">
+        <div class="portfolio__top-section">
+          <h4 class="portfolio__top-title">Portfolio</h4>
+          <p class="portfolio__description">
+            Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor
+            commodo luctus. Curabitur blandit
+            <br />
+            tempus porttitor. Morbi leo risus, porta ac consectetur ac,
+            vestibulum at eros.
+          </p>
+        </div>
+
+        <div class="portfolio__images">
+          <img
+            class="portfolio__image"
+            src="./images/img1.png"
+            alt="photo of models"
+          />
+          <img
+            class="portfolio__image"
+            src="./images/img2.png"
+            alt="photo of model"
+          />
+          <img class="portfolio__image" src="./images/img3.png" alt="travel" />
+          <img class="portfolio__image" src="./images/img4.png" alt="ocean" />
+          <img
+            class="portfolio__image"
+            src="./images/img5.png"
+            alt="summmer photo"
+          />
+          <img
+            class="portfolio__image"
+            src="./images/img6.png"
+            alt="top models"
+          />
+          <img class="portfolio__image" src="./images/img7.png" alt="style" />
+          <img class="portfolio__image" src="./images/img8.png" alt="podium" />
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <div class="icon-avatar">
+        <img clas src="./images/icon-avatar.png" alt="icon-avatar" />
+      </div>
+      <div class="footer__contacts">
+        <h5 class="footer__title__last">Lucas Montana</h5>
+        <p class="footer__contact-number">+4 768 25 25 255</p>
+        <p class="footer__addres-country">Poland, Warsaw</p>
+      </div>
+    </footer>
+    <div class="rights">
+      <p class="rights__text">All rights reserved. “World Photos”, Inc</p>
+    </div>
+
+    <div class="modal-backdrop closed">
+      <div class="modal">
+        <span class="modal__close-btn">close</span>
+        <img class="modal__img" />
+      </div>
+    </div>
+
+    <div class="frame closed">
+      <form action="frame__contents">
+        <h4 class="frame__title">Contact me</h4>
+        <p class="frame__subtitle">
+          Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor
+          commodo <br />
+          luctus. Curabitur blandit tempus porttitor. Morbi leo risus, porta ac
+          <br />
+          consectetur ac, vestibulum at eros.
+        </p>
+        <div class="form">
+          <input id="form-name" type="text" placeholder="Your name..." />
+          <input id="form-email" type="email" placeholder="Your email..." />
+          <p>
+            <textarea
+              class="form-texarea"
+              cols="63"
+              rows="20"
+              placeholder="Curabitur blandit tempus porttitor. Vollis ac inceptos mollisestor  commodo luctus. Fu blandit tempus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vollis  commodo luctus. Curabi blandit. Morbi leo risus, porta acconsectetur ac, at eros."
+            ></textarea>
+          </p>
+          <input type="submit" onclick="openForm" value="Send message" />
+        </div>
+      </form>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
